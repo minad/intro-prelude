@@ -1,0 +1,27 @@
+name: intro-prelude
+version: 0.1.0.0
+synopsis: Intro reexported as Prelude
+description: Intro reexported as Prelude
+category: Prelude
+stability: experimental
+author: Daniel Mendler <mail@daniel-mendler.de>
+maintainer: Daniel Mendler <mail@daniel-mendler.de>
+copyright: 2016 Daniel Mendler
+license: MIT
+github: minad/intro-prelude
+
+dependencies:
+- intro
+
+tested-with:
+  GHC == 7.10.3,
+  GHC == 8.0.1
+
+library:
+  reexported-modules: Intro as Prelude
+
+tests:
+  test:
+    main: test.hs
+    dependencies:
+      - intro-prelude
