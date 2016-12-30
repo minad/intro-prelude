@@ -5,7 +5,7 @@
 name:           intro-prelude
 version:        0.1.0.0
 synopsis:       Intro reexported as Prelude
-description:    Intro reexported as Prelude
+description:    Intro reexported as Prelude. Replace base with base-noprelude and intro-prelude in your build-depends.
 category:       Prelude
 stability:      experimental
 homepage:       https://github.com/minad/intro-prelude#readme
